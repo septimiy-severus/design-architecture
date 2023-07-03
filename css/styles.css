@@ -67,7 +67,18 @@ body {
 /* header */
 
 .header-top {
+    /* background-color: #313131; */
+    position: relative;
+    height: 70px;
+}
+
+.header-top-fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     background-color: #313131;
+    z-index: 2;
 }
 
 .header-wrapper {
