@@ -52,6 +52,10 @@ body {
     color: #FFFFFF;
 }
 
+.hidden {
+    overflow-y: hidden;
+}
+
 .container {
     max-width: 1175px;
     width: 100%;

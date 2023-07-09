@@ -138,16 +138,18 @@
         background: #fff;
         transform: translateX(-100%);
         transition: 0.3s ease;
+        height: 100vh;
     }
 
     .navigation.active {
         transform: translateX(0);
-        height: 100vh;
     }
 
     .header-list {
         flex-direction: column;
         padding: 100px 0 0 0;
+        height: 100vh;
+        justify-content: center;
     }
 
     .header-item {
@@ -170,6 +172,11 @@
         background: url(../images/close.svg) no-repeat center;
         position: relative;
         z-index: 5;
+    }
+
+    .header-item-link {
+        font-size: 40px;
+        line-height: 2;
     }
 
     .parallax-wrapper {
@@ -269,6 +276,10 @@
 }
 
 @media(max-width:590px) {
+
+    .header-list {
+        padding: 100px 10px;
+    } 
 
     .news-top-1-img,
     .news-bottom-1-img {
